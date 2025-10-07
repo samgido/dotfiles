@@ -1,0 +1,5 @@
+[symlinks]
+"git/.gitconfig" = "C:\\Users\\samue/.gitconfig"
+"wezterm/.wezterm.lua" = "C:\\Users\\samue/.wezterm.lua"
+
+[templates]

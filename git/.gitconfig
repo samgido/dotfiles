@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Samuel Jackson Gido
+	email = 132026917+samgido@users.noreply.github.com
+[gui]
+	recentrepo = C:/Users/samue/AppData/Roaming/Sublime Text/Packages/User
+[safe]
+	directory = C:/Users/samue/Documents/Temp/sokol/sokol-odin
