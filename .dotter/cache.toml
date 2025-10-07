@@ -1,5 +1,5 @@
 [symlinks]
-"git/.gitconfig" = "C:\\Users\\samue/.gitconfig"
-"wezterm/.wezterm.lua" = "C:\\Users\\samue/.wezterm.lua"
+"git/.gitconfig" = "/Users/gidosamuel/.gitconfig"
+"wezterm/wezterm.lua" = "/Users/gidosamuel/.wezterm.lua"
 
 [templates]
