@@ -1,0 +1,9 @@
+{
+	"clients":
+	{
+		"ocaml":
+		{
+			"enabled": true
+		}
+	}
+}

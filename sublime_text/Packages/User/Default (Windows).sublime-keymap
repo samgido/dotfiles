@@ -1,0 +1,35 @@
+[
+	{
+		"keys": ["j", "j"],
+		"command": "exit_insert_mode",
+		"context": 
+		[
+			{ "key": "setting.command_mode", "operand": false },
+			{ "key": "setting.is_widget", "operand": false }
+		]
+	},
+	{
+		"keys": ["g", "h"],
+		"command": "lsp_hover",
+		"context": 
+		[
+			{ "key": "setting.command_mode", "operand": true }
+		]
+	},
+	{
+		"keys": ["g", "d"],
+		"command": "lsp_symbol_definition",
+		"context": 
+		[
+			{ "key": "setting.command_mode", "operand": true }
+		]
+	},
+	{
+		"keys": ["g", "r"],
+		"command": "lsp_symbol_rename",
+		"context": 
+		[
+			{ "key": "setting.command_mode", "operand": true }
+		]
+	}
+]
