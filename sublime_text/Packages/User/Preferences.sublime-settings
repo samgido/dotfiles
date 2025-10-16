@@ -18,4 +18,5 @@
 	"hardware_acceleration": "opengl",
 	"theme": "Default Dark.sublime-theme",
 	"hot_exit": "disabled",
+	"theme": "auto"
 }
