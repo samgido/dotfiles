@@ -3,6 +3,7 @@
 	[
 		"LSP",
 		"LSP-eslint",
+		"LSP-pyright",
 		"LSP-typescript",
 		"OpenGL Shading Language (GLSL)",
 		"Package Control",
