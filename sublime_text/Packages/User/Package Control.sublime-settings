@@ -2,7 +2,9 @@
 	"installed_packages":
 	[
 		"LSP",
+		"LSP-eslint",
 		"LSP-typescript",
+		"OpenGL Shading Language (GLSL)",
 		"Package Control",
 	],
 	"in_process_packages":

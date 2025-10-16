@@ -4,6 +4,10 @@
 		"ocaml":
 		{
 			"enabled": true
+		},
+		"typescript": 
+		{
+			"enabled": true
 		}
 	},
 

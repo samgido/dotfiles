@@ -8,7 +8,7 @@
 	"caret_extra_bottom": 0,
 
 	"font_face": "CodeNewRoman Nerd Font",
-	"font_size": 11,
+	"font_size": 13,
 	"index_files": true,
 
 	"relative_line_numbers": true,
@@ -16,7 +16,7 @@
 	"draw_centered": false,
 
 	"hardware_acceleration": "opengl",
-	"theme": "Default Dark.sublime-theme",
+	"theme": "auto",
 	"hot_exit": "disabled",
-	"theme": "auto"
+	/*"theme": "auto"*/
 }
