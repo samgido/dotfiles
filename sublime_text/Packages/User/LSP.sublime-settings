@@ -8,6 +8,10 @@
 		"typescript": 
 		{
 			"enabled": true
+		},
+		"go":
+		{
+			"enabled": true
 		}
 	},
 
