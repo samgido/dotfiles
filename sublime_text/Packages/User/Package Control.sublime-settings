@@ -7,14 +7,12 @@
 		"LSP-clangd",
 		"LSP-eslint",
 		"LSP-gopls",
+		"LSP-json",
 		"LSP-pyright",
 		"LSP-rust-analyzer",
 		"LSP-typescript",
 		"npm",
 		"OpenGL Shading Language (GLSL)",
 		"Package Control",
-	],
-	"in_process_packages":
-	[
 	],
 }
