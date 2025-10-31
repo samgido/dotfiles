@@ -31,5 +31,13 @@
 		[
 			{ "key": "setting.command_mode", "operand": true }
 		]
+	},
+	{
+		"keys": ["ctrl+shift+["],
+		"command": "next_view"
+	},
+	{
+		"keys": ["ctrl+shift+]"],
+		"command": "prev_view"
 	}
 ]

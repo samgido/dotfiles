@@ -1,11 +1,16 @@
 {
 	"installed_packages":
 	[
+		"CMake",
+		"CMakeEditor",
 		"LSP",
+		"LSP-clangd",
 		"LSP-eslint",
 		"LSP-gopls",
 		"LSP-pyright",
+		"LSP-rust-analyzer",
 		"LSP-typescript",
+		"npm",
 		"OpenGL Shading Language (GLSL)",
 		"Package Control",
 	],

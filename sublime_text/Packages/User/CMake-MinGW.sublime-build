@@ -1,0 +1,22 @@
+{
+	"shell_cmd": "cmake --build build && build\\${project_base_name}.exe",
+	"working_dir": "${project_path}",
+	"selector": "source.c",
+	"variants": [
+		{
+			"name": "Run",
+			"shell_cmd": "build\\${project_base_name}.exe",
+			"working_dir": "${project_path}"
+		},
+		{
+			"name": "Clean Build",
+			"shell_cmd": "cmake --build build --clean-first && build\\${project_base_name}.exe",
+			"working_dir": "${project_path}"
+		},
+		{
+			"name": "Configure CMake",
+			"shell_cmd": "cmake -G \"MinGW Makefiles\" -B build",
+			"working_dir": "${project_path}"
+		}
+	]
+}
