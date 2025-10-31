@@ -1,9 +1,12 @@
 {
 	"installed_packages":
 	[
+		"CMake",
 		"LSP",
+		"LSP-clangd",
 		"LSP-eslint",
 		"LSP-gopls",
+		"LSP-json",
 		"LSP-pyright",
 		"LSP-typescript",
 		"OpenGL Shading Language (GLSL)",
