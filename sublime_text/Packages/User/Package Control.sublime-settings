@@ -1,8 +1,6 @@
 {
 	"installed_packages":
 	[
-		"CMake",
-		"CMakeEditor",
 		"LSP",
 		"LSP-clangd",
 		"LSP-eslint",
@@ -12,7 +10,10 @@
 		"LSP-rust-analyzer",
 		"LSP-typescript",
 		"npm",
-		"OpenGL Shading Language (GLSL)",
 		"Package Control",
+	],
+	"bootstrapped": true,
+	"in_process_packages":
+	[
 	],
 }
