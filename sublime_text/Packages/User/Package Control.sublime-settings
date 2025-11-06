@@ -1,7 +1,6 @@
 {
 	"installed_packages":
 	[
-		"CMake",
 		"Jinja2",
 		"LSP",
 		"LSP-clangd",
@@ -9,9 +8,11 @@
 		"LSP-gopls",
 		"LSP-json",
 		"LSP-pyright",
+		"LSP-rust-analyzer",
 		"LSP-typescript",
 		"Package Control",
 	],
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],

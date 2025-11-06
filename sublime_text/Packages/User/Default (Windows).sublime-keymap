@@ -89,5 +89,13 @@
 				"key": "setting.command_mode"
 			}
 		]
+	},
+	{
+		"keys": ["ctrl+shift+["],
+		"command": "next_view"
+	},
+	{
+		"keys": ["ctrl+shift+]"],
+		"command": "prev_view"
 	}
 ]

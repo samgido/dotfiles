@@ -1,0 +1,5 @@
+{
+	"cmd": ["uv", "run", "$file"],
+	"selector": "*.py",
+	"keyfiles": ["uv.lock"],
+}
