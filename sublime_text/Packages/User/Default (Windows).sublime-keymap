@@ -1,35 +1,93 @@
 [
 	{
-		"keys": ["j", "j"],
+		"keys": [
+			"j",
+			"j"
+		],
 		"command": "exit_insert_mode",
-		"context": 
-		[
-			{ "key": "setting.command_mode", "operand": false },
-			{ "key": "setting.is_widget", "operand": false }
+		"context": [
+			{
+				"key": "setting.command_mode",
+				"operand": false
+			},
+			{
+				"key": "setting.is_widget",
+				"operand": false
+			}
 		]
 	},
 	{
-		"keys": ["g", "h"],
+		"keys": [
+			"g",
+			"h"
+		],
 		"command": "lsp_hover",
-		"context": 
-		[
-			{ "key": "setting.command_mode", "operand": true }
+		"context": [
+			{
+				"key": "setting.command_mode",
+				"operand": true
+			}
 		]
 	},
 	{
-		"keys": ["g", "d"],
+		"keys": [
+			"g",
+			"d"
+		],
 		"command": "lsp_symbol_definition",
-		"context": 
-		[
-			{ "key": "setting.command_mode", "operand": true }
+		"context": [
+			{
+				"key": "setting.command_mode",
+				"operand": true
+			}
 		]
 	},
 	{
-		"keys": ["g", "r"],
+		"keys": [
+			"g",
+			"r"
+		],
 		"command": "lsp_symbol_rename",
-		"context": 
-		[
-			{ "key": "setting.command_mode", "operand": true }
+		"context": [
+			{
+				"key": "setting.command_mode",
+				"operand": true
+			}
+		]
+	},
+	{
+		"keys": [
+			"g",
+			"m"
+		],
+		"command": "lsp_restart_server",
+		"context": [
+			{
+				"key": "setting.command_mode",
+				"operand": true
+			}
+		]
+	},
+	{ // Override the Jinja2 package keybind to insert {{ }} on "{"
+		"keys": [
+			"{"
+		],
+		"command": "set_motion",
+		"args": {
+			"motion": "move",
+			"motion_args": {
+				"by": "stops",
+				"word_begin": false,
+				"empty_line": true,
+				"seperators": "",
+				"forward": false,
+				"extend": false
+			}
+		},
+		"context": [
+			{
+				"key": "setting.command_mode"
+			}
 		]
 	}
 ]

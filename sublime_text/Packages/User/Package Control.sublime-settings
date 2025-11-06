@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"CMake",
+		"Jinja2",
 		"LSP",
 		"LSP-clangd",
 		"LSP-eslint",
@@ -9,7 +10,6 @@
 		"LSP-json",
 		"LSP-pyright",
 		"LSP-typescript",
-		"OpenGL Shading Language (GLSL)",
 		"Package Control",
 	],
 	"in_process_packages":
